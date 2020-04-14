@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #1b262c;
+  background-color: #bbe1fa;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #3282b8;
+}
+
+a:hover {
+  color: #bbe1fa;
+}
+
+/* Navbar */
+#navbar {
+  background-color: #0f4c75;
+  color: #3282b8;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  text-align: left;
+}
+
+#navbar a {
+  padding: 0 20px;
+}
+
+/* Welcome Section */
+#welcome-section {
+  height: 100vh;
+  background-color: #000;
+  color: #3282b8;
+  padding: 0;
+  font-size: 3rem;
+  background-image: url(images/sunrise.jpg);
+}
+
+h1 {
+  font-size: 3rem;
+  padding-top: 100px;
+  font-family: cursive;
+}
+
+#welcome-section p {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+/* Projects */
+#projects {
+  height: 50vh;
+  background-color: #bbe1fa;
+  position: relative;
+}
+
+#projects a {
+  color: #1b262c;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: sans-serif;
+  position: relative;
+  top: 100px;
+}
+
+#projects a:hover {
+  color: #0f4c75;
+}
+
+.project-tile {
+  width: 50%;
+  height: 50vh;
+  float: left;
+  background-color: #3282b8;
+}
+
+.right-tile {
+  width: 50%;
+  float: right;
+  background-color: #3282b8;
+  height: 50vh;
+}
+
+#contact_info  p {
+  padding: 20px 0;
+  margin: 0;
+}
+
+#contact_info  a {
+  padding: 0;
+  margin: 10px;
+}
+
+#contact_info a:hover {
+  color: #0f4c75;
+}
+
+footer {
+  background-color: #0f4c75;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .project-tile {
+    width: 100%;
+  background-color: #bbe1fa;
+  }
+
+  .right-tile {
+    width: 100%;
+}
+}
